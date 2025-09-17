@@ -1,4 +1,3 @@
-// Opdracht 3.3: Template Literals
 console.log('🚀 Opdracht 3.3: Template Literals');
 
 const namen = ['Jan', 'Marie', 'Piet', 'Lisa'];
@@ -9,15 +8,15 @@ console.log('Namen:', namen);
 console.log('Leeftijden:', leeftijden);
 console.log('Steden:', steden);
 
-// TODO: Maak beschrijvingen met template literals
-// Tip: gebruik map() met index parameter: (naam, index) => 
 const beschrijvingen = namen.map((naam, index) => 
     `${naam} (${leeftijden[index]} jaar) woont in ${steden[index]}.`
 );
 
 
-/* jouw code hier - gebruik map() en template literals */
+const index = 0; 
+const bericht = `${namen[index]} (${leeftijden[index]} jaar) woont in ${steden[index]}.`;
 
 console.log('Beschrijvingen:', beschrijvingen);
-console.log('Verwacht: ["Jan (25 jaar) woont in Amsterdam.", ...]');
+console.log('Voorbeeld bericht:', bericht);
 
+console.log('Verwacht: ["Jan (25 jaar) woont in Amsterdam.", ...]');
