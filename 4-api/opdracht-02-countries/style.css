@@ -1,0 +1,42 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+.output {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  padding: 10px;
+}
+
+.country {
+  background: white;
+  border-radius: 8px;
+  text-align: center;
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+
+.country img {
+  width: 100px;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.country h2 {
+  font-size: 1rem;
+  margin: 0;
+}
