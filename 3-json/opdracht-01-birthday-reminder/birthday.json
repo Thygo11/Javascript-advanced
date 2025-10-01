@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Bertie Yates",
+    "age": "29 years",
+    "image": "../opdracht-01-birthday-reminder/Persoon1.jpg"
+  },
+  {
+    "name": "Hester Hogan",
+    "age": "32 years",
+    "image": "../opdracht-01-birthday-reminder/Persoon2.jpg"
+  },
+  {
+    "name": "Larry Little",
+    "age": "36 years",
+    "image": "../opdracht-01-birthday-reminder/Persoon6.jpeg"
+  },
+  {
+    "name": "Sean Walsh",
+    "age": "34 years",
+    "image": "../opdracht-01-birthday-reminder/Persoon3.jpeg"
+  },
+  {
+    "name": "Marco Peters",
+    "age": "29 years",
+    "image": "../opdracht-01-birthday-reminder/persoon5.jpg"
+  },
+  {
+    "name": "Gert Wilders",
+    "age": "48 years",
+    "image": "../opdracht-01-birthday-reminder/Persoon4.jpg"
+  }
+]
